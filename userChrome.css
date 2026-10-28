@@ -1,0 +1,30 @@
+.az-launch { appearance:none!important; position:fixed!important; right:18px!important; bottom:18px!important; z-index:2147483000!important; border:1px solid #b4a9ff66!important; background:#252039!important; color:#f4edff!important; border-radius:999px!important; padding:11px 17px!important; font-weight:700!important; font-size:12px!important; box-shadow:0 12px 34px #0005!important; cursor:pointer!important; }
+.az-launch:hover { background:#40335d!important; }
+.az-mask { position:fixed!important; inset:0!important; z-index:2147483600!important; display:none!important; justify-content:center!important; align-items:center!important; background:#080914bb!important; backdrop-filter:blur(12px)!important; font:14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important; color:#f5f3ff!important; }
+.az-mask.az-visible { display:flex!important; }
+.az-panel { box-sizing:border-box!important; width:min(570px,calc(100vw - 40px))!important; max-height:min(85vh,800px)!important; display:flex!important; flex-direction:column!important; gap:14px!important; padding:26px!important; border-radius:23px!important; border:1px solid #ffffff25!important; background:linear-gradient(155deg,#28213e,#151521 75%)!important; box-shadow:0 25px 100px #0009!important; }
+.az-head { display:flex!important; gap:13px!important; align-items:center!important; }
+.az-logo { background:linear-gradient(145deg,#aa8cff,#6557d7)!important; border-radius:15px!important; padding:13px!important; font-size:22px!important; }
+.az-eyebrow { font-size:10px!important; font-weight:800!important; letter-spacing:2.3px!important; color:#b3a4e8!important; }
+.az-head h1 { font-size:23px!important; margin:3px 0 0!important; font-weight:750!important; color:#fff!important; }
+.az-close { margin-left:auto!important; font-size:25px!important; background:transparent!important; border:0!important; color:#c6bfd8!important; cursor:pointer!important; }
+.az-intro { color:#bdb6cf!important; margin:0!important; line-height:1.5!important; }
+.az-input { box-sizing:border-box!important; width:100%!important; background:#ffffff0d!important; color:#fff!important; border:1px solid #ffffff28!important; border-radius:12px!important; padding:13px!important; font-size:13px!important; }
+.az-input:focus { outline:2px solid #9884ed!important; }
+.az-primary,.az-secondary { appearance:none!important; border:0!important; border-radius:11px!important; padding:12px 15px!important; font-weight:700!important; cursor:pointer!important; }
+.az-primary { background:#9f89ff!important; color:#151122!important; }
+.az-primary:hover { background:#b7a6ff!important; }
+.az-primary:disabled { opacity:.5!important; }
+.az-secondary { background:#ffffff14!important; color:#f5f1ff!important; }
+.az-status { min-height:15px!important; color:#9fddc0!important; font-size:12px!important; }
+.az-status.az-error { color:#ffaaaa!important; }
+.az-content { overflow:auto!important; min-height:0!important; scrollbar-width:thin!important; }
+.az-folder-title { font-size:18px!important; font-weight:750!important; }
+.az-count { color:#aaa2bd!important; font-size:12px!important; margin:5px 0 12px!important; }
+.az-link { display:flex!important; align-items:center!important; gap:12px!important; padding:11px 9px!important; margin:4px 0!important; border:1px solid #ffffff13!important; border-radius:12px!important; background:#ffffff08!important; }
+.az-favicon { width:17px!important; height:17px!important; }
+.az-link-info { min-width:0!important; }
+.az-link-title { font-size:13px!important; font-weight:650!important; overflow:hidden!important; text-overflow:ellipsis!important; white-space:nowrap!important; }
+.az-link-url { font-size:11px!important; color:#9f97b2!important; overflow:hidden!important; text-overflow:ellipsis!important; white-space:nowrap!important; margin-top:3px!important; }
+.az-foot { display:none!important; gap:9px!important; flex-wrap:wrap!important; }
+.az-foot.az-show { display:flex!important; }

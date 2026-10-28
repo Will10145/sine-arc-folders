@@ -1,0 +1,11 @@
+{
+  "id": "arc-zen-import",
+  "name": "Arc Folder Import for Zen",
+  "description": "Beautiful Arc folder preview and one-click import to Zen pinned tabs.",
+  "author": "Community prototype",
+  "version": "0.1.0",
+  "type": "theme",
+  "scripts": ["arc-zen.uc.js"],
+  "styles": ["userChrome.css"],
+  "supportsUnload": false
+}
