@@ -1,0 +1,19 @@
+
+@-moz-document regexp("https://arc\\.net/folder/.*") {
+  html {
+    filter: hue-rotate(100deg) !important;
+  }
+
+  body::before {
+    content: "ZEN ARC IMPORTER CSS LOADED";
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2147483647;
+    background: #7c3aed;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    font: bold 16px sans-serif;
+  }
+}
